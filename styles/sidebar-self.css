@@ -1,0 +1,26 @@
+nav {
+    position: fixed;
+    left: 0;
+    bottom: 5px0;
+    top: 60px;
+    width: 75px;
+    display: flex;
+    flex-direction: column;
+    }
+.nav-icon {
+    display: flex;
+    flex-direction: column;
+    height: 75px;
+    align-items: center;
+    border: 1px solid white;
+}
+.nav-icon img {
+    width: 30px;
+    margin: 8px;
+}
+.nav-icon:hover {
+    background-color: rgba(0,0,0,0.1);
+}
+.nav-notifications {
+    font-size: 10px;
+    }
